@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0a;
+  color: #fafafa;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-gradient-blood {
+  background: linear-gradient(135deg, #dc2626 0%, #7f1d1d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dialogue-bubble {
+  background: white;
+  color: #0a0a0a;
+  border-radius: 50%;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+}
+
+.scanlines {
+  background-image: linear-gradient(rgba(220, 38, 38, 0.03) 50%, transparent 50%);
+  background-size: 100% 4px;
+}
